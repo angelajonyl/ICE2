@@ -1,0 +1,19 @@
+{
+    "family": "my-task",
+    "containerDefinitions": [
+      {
+        "name": "my-container",
+        "image": "545009852032.dkr.ecr.us-east-2.amazonaws.com/ice2",
+        "memory": 512,
+        "cpu": 256,
+        "essential": true,
+        "portMappings": [
+          {
+            "containerPort": 3000,
+            "hostPort": 3000
+          }
+        ]
+      }
+    ]
+  }
+  
